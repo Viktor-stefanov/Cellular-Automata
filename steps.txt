@@ -1,20 +1,4 @@
 To create a grid:
 
-Q: What is the shape?
-A: 800 x 600
-
-Q: Is it better to have many or little squares?
-A: Many as it will demonstrate the purpose of the celluar automata
-
-Q: How to make as little squares possible?
-A: ?
-
 Q: What is a square? (on a PC screen)
-A: 4 angles connecting a color (in our case)
-
-Q: How to achieve minimum squares on the screen?
-A: Get the closest number that divides them both without a reminder and calculate how much space each square will take... then repeat
-
-ideas: 
-
-1. Get the display info from sys and make the application fullscreen always? (for educational purposes only of course)
+A: Or a widget with a fixed width and height...
