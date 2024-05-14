@@ -1,7 +1,7 @@
 To create a grid:
 
 Q: What is the shape?
-A: 800 x 600
+A: 1200 x 800
 
 Q: Is it better to have many or little squares?
 A: Many as it will demonstrate the purpose of the celluar automata
