@@ -1,6 +1,5 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QWidget, QGridLayout, QLabel, QMainWindow
-from PyQt6.QtGui import QColor
+from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
 from utils.args import parse_args
 
 
