@@ -12,8 +12,7 @@ class MainWindow(QMainWindow):
     def setup_grid(self):
         args = parse_args()
 
-        if args.fullscreen:
-            self.showFullScreen()
+        self.showFullScreen()
         if args.width and args.height:
             self.setGeometry(0, 0, args.width, args.height)
 
@@ -23,14 +22,14 @@ class MainWindow(QMainWindow):
 
         # Layout
         grid_layout = QGridLayout(central_widget)
-        grid_layout.setSpacing(10)  # Space between widgets
+        grid_layout.setSpacing(1)  # Space between widgets
 
         # Parameters for the grid
         grid_size = [
-            20,
-            60,
+            30,
+            120,
         ]  # 50x30 grid # TODO: Convert the list to a more appropriate type
-        square_size = 15  # Each square has 5x5 pixels
+        square_size = 5  # Each square has 5x5 pixels
 
         # Create and add squares to the layout
         for row in range(grid_size[0]):
